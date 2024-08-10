@@ -17,3 +17,9 @@
 
 **Note -**
 1. Each multiple folders/files should have index
+
+
+**Examples -**
+1. Home - useCallback
+2. Login - useMemo
+3. Register - useRef
