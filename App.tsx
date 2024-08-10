@@ -24,7 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import { Home, Login } from './src/screens';
+import { Home, Login, Register } from './src/screens';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -70,7 +70,8 @@ function App(): JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       {/* <Home /> */}
-      <Login />
+      {/* <Login /> */}
+      <Register />
     </SafeAreaView>
   );
 }
