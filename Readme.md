@@ -66,3 +66,7 @@ Assignment 1 -
 4. We can also cache on network data using query libraries (graphql client, etc.) where we configure the cache policies.
 
 ***Note - It is a good practice to set the age of the cache.***
+
+DeepLinking -
+1. https://reactnavigation.org/docs/deep-linking
+2. https://reactnavigation.org/docs/configuring-links
