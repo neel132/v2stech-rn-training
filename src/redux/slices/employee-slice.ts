@@ -1,20 +1,30 @@
 import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = {
-  employeeData: [
-    {
-      id: 1,
-      name: 'John Doe',
-      department: 'Engineering',
-    },
-  ],
+  employeeData: [],
+  loading: false,
+  error: '',
 };
 
 const employee = createSlice({
   name: 'employee',
   initialState,
-  reducers: {},
+  reducers: {
+    requestEmployeeData: state => {
+      state.loading = true;
+    },
+    employeeDataSuccess: (state, action) => {
+      state.loading = false;
+      state.employeeData = action.payload.data;
+      state.error = '';
+    },
+    employeeDataFailure: (state, action) => {
+      state.loading = false;
+      state.error = action.payload;
+    },
+  },
 });
 
 export default employee.reducer;
-export const {} = employee.actions;
+export const {requestEmployeeData, employeeDataSuccess, employeeDataFailure} =
+  employee.actions;
