@@ -1,16 +1,16 @@
 import React from 'react';
-import {ThemeSwitcher} from './src/screens';
-import {ThemeProvider} from './src/context/ThemeContext';
 import {SafeAreaView} from 'react-native';
+import {Provider} from 'react-redux';
+import store from './src/redux/store';
+import {Employee} from './src/screens';
 
 function App(): JSX.Element {
-
   return (
-    <SafeAreaView>
-      <ThemeProvider>
-        <ThemeSwitcher />
-      </ThemeProvider>
-    </SafeAreaView>
+    <Provider store={store}>
+      <SafeAreaView>
+        <Employee />
+      </SafeAreaView>
+    </Provider>
   );
 }
 

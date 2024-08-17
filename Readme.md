@@ -23,3 +23,35 @@
 1. Home - useCallback
 2. Login - useMemo
 3. Register - useRef
+
+Assignment -
+Short Assignment -
+- Add useCallback, useMemo, useRef in an calculator app.
+
+Long Assignment -
+- Objective: Create a simple To-Do List app that allows users to switch between light and dark themes. The app should demonstrate the use of `useContext` for theme management, `useCallback` and `useMemo` for performance optimization, and `useRef` for managing a to-do input field.
+
+Requirements -
+1. Theme Management with `useContext`
+    a. Create a `ThemeContext` that manages light and dark themes.
+    b. Use the context to apply the selected theme across the app.
+    c. Implement a theme switcher button that toggles between light and dark themes
+2. To-Do List Functionality
+    a. Allow users to add new to-do items.
+    b. Display the list of to-do items.
+    c. Allow users to delete items from the list
+3. Performance Optimization
+    a. Use `useCallback` to optimize the performance of functions that are passed as props to
+        child components (e.g. addToDo, removeToDo).
+    b. Use `useMemo` to memoize the filtered list of to-dos based on some criteria (e.g. active vs completed tasks).
+4. Managing input with `useRef`
+    a. Use `useRef` to manage the input field for adding new to-dos.
+    b. Automatically focus the input field after adding a to-do item.
+
+Note - 
+This assignment should have proper folder structure.
+
+
+### Redux Saga - one of redux middleware which helps for calling network calls.
+1. Folder structure
+2. 
