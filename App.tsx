@@ -1,15 +1,16 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {SafeAreaView} from 'react-native';
 import {Provider} from 'react-redux';
 import store from './src/redux/store';
-import {Employee} from './src/screens';
+import {AuthStack} from './src/navigation/AuthNavigator';
+import {RootNavigation} from './src/navigation';
 
 function App(): JSX.Element {
   return (
     <Provider store={store}>
-      <SafeAreaView>
-        <Employee />
-      </SafeAreaView>
+      <RootNavigation>
+        <AuthStack />
+      </RootNavigation>
     </Provider>
   );
 }
