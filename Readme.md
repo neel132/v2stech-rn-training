@@ -54,4 +54,15 @@ This assignment should have proper folder structure.
 
 ### Redux Saga - one of redux middleware which helps for calling network calls.
 1. Folder structure
-2. 
+2. Implementation
+
+Assignment 1 - 
+1. To perform crud operation using redux-saga
+
+### Caching - For faster user experience
+1. Assets/ Media are been cached in our app by-default (system does it for us).
+2. If we want to cache programmatically inside a directory then we need to use CachesDirectoryPath from 'react-native-fs' library.
+3. We can alternatively use react-native-cache library as well, where on backend it stores inside AsyncStorage.
+4. We can also cache on network data using query libraries (graphql client, etc.) where we configure the cache policies.
+
+***Note - It is a good practice to set the age of the cache.***
