@@ -87,3 +87,5 @@ DeepLinking -
 4. Wrap the root component with i18nextprovider
 5. To read the locales inside function component make use of useTranslation
 6. programmatically change the language use changeLanguage method.
+
+### Realm
