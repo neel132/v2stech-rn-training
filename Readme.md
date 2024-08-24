@@ -70,3 +70,12 @@ Assignment 1 -
 DeepLinking -
 1. https://reactnavigation.org/docs/deep-linking
 2. https://reactnavigation.org/docs/configuring-links
+
+### Debugging -
+1. Flipper - Installed version 0.189.0
+    a. We checked the version comptability, and then installed the react-native-flipper in dev dependencies.
+    b. Also did the pod installation with same version.
+    c. then we disabled the hermes engine
+2. Remote Debugging using chrome browser
+3. React Native Debugger
+4. Reactotron
