@@ -119,3 +119,9 @@ DeepLinking -
 4. For Webviews - Server should include CSRF protection
 5. Rate Limiting - Login, Send Otp
 6. Keep only updated and low risk library
+
+Assignment - 
+1. Build a chat application for minimum 2 users, where they can communicate with messages, (media is optional).
+    On receiving the message, user should be notified.
+
+    Libraries - Redux, Redux Persist, RNSecureStorage
