@@ -108,3 +108,14 @@ DeepLinking -
 2. Use a library - []https://www.npmjs.com/package/rn-secure-storage
     - Stored in keychain for ios
     - Stroted in keystore for android
+
+### Best Practice -
+1. Authentication
+    a. JWT (Json Web Token) - Either set the expiry (max 1hr) or store it in secure storage.
+    b. OAuth2 or OpenID Connect
+    c. AWS Cognito
+2. Always try to use SSL Communication (HTTPS)
+3. Biometric Authentication
+4. For Webviews - Server should include CSRF protection
+5. Rate Limiting - Login, Send Otp
+6. Keep only updated and low risk library
