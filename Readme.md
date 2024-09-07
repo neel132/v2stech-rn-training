@@ -88,4 +88,23 @@ DeepLinking -
 5. To read the locales inside function component make use of useTranslation
 6. programmatically change the language use changeLanguage method.
 
-### Realm
+### Best practices -
+## a. Data Storage 
+
+1. Asyncstorage - (upto ~6MB)
+    - Best suited for storing user preferences, settings, or small amount of local data.
+
+2. SQLite -
+    - For relational database storage when working with structured data
+    - Ideal for apps needing complex queries or large amounts of relational data (eg - app history)
+
+3. Watermelon DB/ Realm -
+    - For scalable and performant solutions
+    - Handle large datasets that require real-time synchronization
+
+
+## Types for securing data -
+1. Transform it manually - Either you encrypt or you encode it
+2. Use a library - []https://www.npmjs.com/package/rn-secure-storage
+    - Stored in keychain for ios
+    - Stroted in keystore for android
