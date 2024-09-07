@@ -125,3 +125,7 @@ Assignment -
     On receiving the message, user should be notified.
 
     Libraries - Redux, Redux Persist, RNSecureStorage
+
+### Notifications -
+1. Remote notifications
+2. Local notification

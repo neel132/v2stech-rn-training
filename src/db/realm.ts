@@ -1,9 +1,5 @@
-import Realm from 'realm';
-import UserSchema from './schemas/UserSchema';
+class Realm {}
 
-const realm = new Realm({
-  schema: [UserSchema],
-  schemaVersion: 1,
-});
+const realm = new Realm();
 
 export default realm;
