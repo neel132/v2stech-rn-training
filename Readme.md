@@ -129,3 +129,8 @@ Assignment -
 ### Notifications -
 1. Remote notifications
 2. Local notification
+
+IOS Cloud Messaging setup -
+1. Add Google Plist
+2. APN key / APN Certificate
+3. Add Capabilities - Background Mode (enable Remote Notification), Push Notification
