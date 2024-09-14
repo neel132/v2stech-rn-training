@@ -134,3 +134,22 @@ IOS Cloud Messaging setup -
 1. Add Google Plist
 2. APN key / APN Certificate
 3. Add Capabilities - Background Mode (enable Remote Notification), Push Notification
+
+
+### Issues commonly faced in ios -
+1. cocoapods - brew install cocoapods
+2. Developer Accounts in Signing & Capabilities
+3. Always clean and rebuild after pod install
+4. Add Debug and Release certificate in your project
+5. Info.plist, Build Settings and Build Phases
+6. Follow the installation steps for library where you see an error during release.
+
+### Platform specific -
+1. Platform Api
+    a. OS property
+    b. select method
+2. File name can have .android.tsx or .ios.tsx - Only use when there is massive chunk of code which is platform specific and you want to keep the name same.
+
+### Keyboard Issues -
+1. Either calculate the height using behavior prop in KeyboardAvoidingView
+2. Or, use the library - [react-native-keyboard-aware-scroll-view](https://www.npmjs.com/package/react-native-keyboard-aware-scroll-view)
